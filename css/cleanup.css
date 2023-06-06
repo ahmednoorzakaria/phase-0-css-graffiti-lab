@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall {
+    background: url(../images/new-wall.jpg) no-repeat center;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: none;
+  }
+  .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+   width: 100%;
+   height: 100%;
+   border: none;
+   background-color: white;
+  }
+  div#wall #tag-3.slick {
+    background: url(../images/new-tag-3.png) no-repeat;
+    z-index: 10;
+    display: inline-block;
+  }
+  
